@@ -1,0 +1,6 @@
+{
+  "image": "helm",
+  "startVersion": "3.4.0",
+  "extractVersion": "^v(?<version>.*)$",
+  "cache": "docker-build-cache"
+}
