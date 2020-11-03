@@ -1,0 +1,5 @@
+{
+  "image": "helm",
+  "startVersion": "3.4.0",
+  "cache": "docker-build-cache"
+}
