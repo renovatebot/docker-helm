@@ -42,7 +42,7 @@ jobs:
           dry-run: ${{ env.DRY_RUN }}
 
       - name: Build and Publish
-        uses: renovatebot/internal-tools@v0
+        uses: renovatebot/internal-tools@v1.0.15
         with:
           command: docker-builder
           build-args: FLAVOR
