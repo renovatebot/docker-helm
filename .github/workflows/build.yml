@@ -34,7 +34,7 @@ jobs:
 
       - name: Build and Publish (no flavor)
         if: ${{ env.FLAVOR == env.LATEST_FLAVOR }}
-        uses: renovatebot/internal-tools@v1.0.15
+        uses: renovatebot/internal-tools@v1.1.15
         with:
           command: docker-builder
           build-args: FLAVOR
@@ -42,7 +42,7 @@ jobs:
           dry-run: ${{ env.DRY_RUN }}
 
       - name: Build and Publish
-        uses: renovatebot/internal-tools@v1.0.15
+        uses: renovatebot/internal-tools@v1.1.15
         with:
           command: docker-builder
           build-args: FLAVOR
