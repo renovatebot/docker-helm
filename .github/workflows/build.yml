@@ -39,6 +39,8 @@ jobs:
           command: docker-builder
           build-args: FLAVOR
           # prune: true
+          last-only: true
+          major-minor: false
           dry-run: ${{ env.DRY_RUN }}
 
       - name: Build and Publish
@@ -49,3 +51,5 @@ jobs:
           # prune: true
           tag-suffix: ${{ env.FLAVOR }}
           dry-run: ${{ env.DRY_RUN }}
+          last-only: true
+          major-minor: false
