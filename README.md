@@ -1,6 +1,6 @@
-[![Build status](https://github.com/renovatebot/docker-helm/workflows/build/badge.svg)](https://github.com/renovatebot/docker-helm/actions?query=workflow%3Abuild)
+[![Build status](https://github.com/renovatebot/docker-helm/actions/workflows/build.yml/badge.svg)](https://github.com/renovatebot/docker-helm/actions/workflows/build.yml)
 [![Docker Image Size](https://img.shields.io/docker/image-size/renovate/helm/latest)](https://hub.docker.com/r/renovate/helm)
-[![Version](https://img.shields.io/docker/v/renovate/helm/latest)](https://hub.docker.com/r/renovate/helm)
+[![Version](https://img.shields.io/docker/v/renovate/helm/latest)](https://hub.docker.com/r/renovate/helm/tags)
 
 # docker-helm
 
