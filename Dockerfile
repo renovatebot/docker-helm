@@ -4,7 +4,7 @@ ARG HELM_VERSION=3.9.0
 #--------------------------------------
 # Image: final
 #--------------------------------------
-FROM renovate/buildpack:6@sha256:c70295407ca1c9c4e43d252276605e834ca062773d1277e79d341ef2d02d017e
+FROM renovate/buildpack:6@sha256:87bef922665476c82bc1aa9dbee85d04be57c4d9f1147b964ac6cda63db3cc83
 
 ARG HELM_VERSION
 RUN install-tool helm
