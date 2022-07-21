@@ -1,5 +1,5 @@
 # renovate: datasource=github-releases depName=helm lookupName=helm/helm
-ARG HELM_VERSION=3.9.1
+ARG HELM_VERSION=3.9.2
 
 #--------------------------------------
 # Image: final
